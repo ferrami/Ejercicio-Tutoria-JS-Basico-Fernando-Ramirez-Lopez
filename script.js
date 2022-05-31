@@ -156,23 +156,26 @@ permisoConducir();
 
 //2. Pide una nota (número). Muestra la calificación según la nota:
 
+function nota() {
 
+    let nota = prompt("Ingrese el primer valor");
 
+    if (nota >= 70) {
+        alert('aprobado');
+    } else {
+        if (nota >= 50) {
+            alert('Puede mejorar');
+        } else {
+            alert('reprobado');
+        }
+    };
+
+};
 
 //3. Realiza un script que pida cadenas de texto  hasta que se pulse “cancelar”. Al salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión -.
 
-function() {
+function concatenar() {
 
-    //Tomar la edad del usuario: 
-    let edad = prompt("Ingrese una palabra: ");
+    let palabra = prompt('Ingrese una palabra')
 
-    //Revisar si es mayor: 
-    if (edad >= 18) {
-
-    }
-
-    //Si el numero es impar:
-    else {
-
-    }
-};
+}
